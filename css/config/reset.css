@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+p, span, li, a {
+    color: var(--neutral-very-dark-cyan);
+    font: 400 18px var(--body-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--neutral-very-dark-cyan);
+    font: 700 20px var(--heading-font);
+}

@@ -1,0 +1,30 @@
+.curved {
+    width: 100%;
+    left: 0;
+    display: block;
+    position: absolute;
+}
+
+.curved.top {
+    top: -10.5vw;
+}
+
+.curved.bottom {
+    bottom: -9vw;
+}
+
+/* ================== Media Query ================== */
+
+@media (max-width: 900px) {
+    main .curved.top {
+        top: -26vw;
+    }
+    
+    main .curved.bottom.section-one {
+        bottom: -13vw;
+    }
+
+    main .curved.bottom.section-two {
+        bottom: -26vw;
+    }
+}

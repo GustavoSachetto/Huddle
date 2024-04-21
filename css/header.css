@@ -1,0 +1,18 @@
+header .container-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 45px;
+}
+
+/* ================== Media Query ================== */
+
+@media (max-width: 900px) {
+    header .container-navbar {
+        margin: 30px 25px;
+    }
+    
+    header .container-navbar img {
+        width: 38%;
+    }
+}

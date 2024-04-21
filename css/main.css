@@ -1,0 +1,184 @@
+main {
+    margin-top: 22vh;
+}
+
+main article {
+    position: relative;
+}
+
+main section {
+    z-index: 1000;
+}
+
+main .container-introduction {
+    padding: 0 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .container-introduction > section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .container-introduction > section.community {
+    height: 30vh;
+    margin-bottom: 23vh;
+    text-align: center;
+}
+
+main .container-introduction > section.community  p {
+    margin: 4vh 18vw;
+}
+
+main .container-introduction > section.mockups img {
+    width: 84%;
+}
+
+main .container-introduction > section.statistics {
+    width: 70%;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10vh 0;
+}
+
+main .container-introduction > section.statistics img {
+    width: 42px;
+    margin-left: 7px;
+}
+
+main .container-introduction > section.statistics div.content {
+    text-align: center;
+}
+
+main .container-introduction > section.statistics div.content h1 {
+    font-family: var(--body-font);
+}
+
+main .container-introduction > section.statistics div.content p {
+    margin-top: 12px;
+    font-size: 23px;
+    color: var(--neutral-very-light-cyan);
+}
+
+main .container-showing {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 65vh;
+    margin: 25vh 0;
+}
+
+main .container-showing section.content {
+    width: 35%;
+}
+
+main .container-showing section.content h3 {
+    margin-bottom: 20px;
+}
+
+main .container-showing aside.representation {
+    width: 38%;
+}
+
+main .container-showing aside.representation img {
+    width: 100%;
+}
+
+main .container-showing.with-color {
+    background-color: var(--neutral-very-pale-blue);
+}
+
+main .container-conclusion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 25vh;
+    margin: 32vh 0;
+}
+
+main .container-conclusion section h3 {
+    margin-bottom: 60px;
+}
+
+/* ================== Media Query ================== */
+
+@media (max-width: 900px) {
+    main {
+        margin-top: 18vh;
+    }
+
+    main .container-introduction {
+        padding: 0 8%;
+    }
+
+    main .container-introduction > section.community {
+        height: 35vh;
+    }
+
+    main .container-introduction > section.community  p  {
+        margin: 4vh 0 8.5vh 0;
+    }
+
+    main .container-introduction > section.mockups img {
+        width: 100%;
+    }
+
+    main .container-introduction > section.statistics {
+        justify-content: center;
+        align-items: center;
+        margin: 16vh 0;
+    }
+
+    main .container-introduction > section.statistics img {
+        width: 32px;
+    }
+    
+    main .container-introduction > section.statistics > div {
+        margin: 5vh 0;
+    }
+
+    main .container-introduction > section.statistics div.content p {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    main .container-showing {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        height: 83vh;
+    }
+
+    main .container-showing.with-color {
+        flex-direction: column-reverse;
+    }
+
+    main .container-showing section.content {
+        width: 86%;
+    }
+
+    main .container-showing aside.representation {
+        width: 86%;
+    }
+
+    main .container-showing aside.representation img {
+        width: 94%;
+        margin-bottom: 70px;
+    }
+
+    main .container-conclusion {
+        margin: 32vh 10vw;
+    }
+
+    main .container-conclusion section h3 {
+        font-size: 26px;
+    }
+}

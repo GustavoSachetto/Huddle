@@ -1,0 +1,15 @@
+@import url(config/variables.css);
+
+@import url(config/reset.css);
+
+@import url(config/fonts.css);
+
+@import url(custom/buttons.css);
+
+@import url(custom/curved.css);
+
+@import url(header.css);
+
+@import url(main.css);
+
+@import url(footer.css);

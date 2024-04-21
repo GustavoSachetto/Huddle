@@ -1,0 +1,45 @@
+.btn-primary {
+    padding: calc(0.6vh + 2.5px) 1.73vw;
+    color: var(--primary-pink);
+    background: transparent;
+    font-family: var(--body-font);
+    border: 1px solid var(--primary-pink);
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px hsla(321, 100%, 78%, 0.26);
+    transition: 180ms ease-in-out;
+}
+
+.btn-primary:hover {
+    color: var(--primary-light-pink);
+    border-color: var(--primary-light-pink);
+    box-shadow: 1px 1px 10px hsla(321, 82%, 74%, 0.356);
+}
+
+.btn-secondary {
+    padding: calc(2.3vh + 4px) 5.5vw;
+    color: white;
+    background: var(--primary-pink);
+    font-weight: 700;
+    border-radius: 35px;
+    box-shadow: 1px 5px 10px hsla(321, 26%, 52%, 0.377);
+    transition: 180ms ease-in-out;
+}
+
+.btn-secondary:hover {
+    background: var(--primary-light-pink);
+    box-shadow: 1px 5px 10px hsla(321, 26%, 52%, 0.270);
+}
+
+/* ================== Media Query ================== */
+
+@media (max-width: 900px) {
+   .btn-primary {
+        padding: 6px 24px;
+        font-size: 14px;
+   }
+
+   .btn-secondary {
+        font-size: 16px;
+        padding: 12.5px 36px;
+   }
+}
