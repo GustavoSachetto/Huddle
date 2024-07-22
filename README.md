@@ -15,7 +15,6 @@ Este projeto foi criado com intuito de apreder boas práticas do __HTML e CSS.__
 * Tags semânticas (header, main, footer)
 * Links internos e externos (a href)
 * Importação de vídeo (iframe)
-* Importação de áudio
 * Importação de fontes (Google Fonts)
 * Imagem dinâmica
 * Hierarquia de títulos (h1, h2, h3...) 
