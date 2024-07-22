@@ -9,7 +9,7 @@ Esse site é a resolução de um desafio front-end elaborado pelo [Frontend Ment
 * __Link de acesso:__ https://gustavosachetto.github.io/Huddle/
 
 ## Desenvolvimento
-Este projeto foi criado com intuito de apreder boas práticas do __HTML e CSS.__
+Este projeto foi criado com intuito de aprender boas práticas do __HTML e CSS.__
 
 ### HTML 
 * Tags semânticas (header, main, footer)
