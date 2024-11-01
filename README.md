@@ -6,7 +6,7 @@
 
 Esse site é a resolução de um desafio front-end elaborado pelo [Frontend Mentor](https://www.frontendmentor.io/). Na qual o intuito do projeto é desenvolver o site responsivo utilizando qualquer tecnologia com base no design proposto.
 
-* __Link de acesso:__ https://gustavosachetto.github.io/Huddle/
+* __Link de acesso:__ https://gustavosachetto.site/huddle
 
 ## Desenvolvimento
 Este projeto foi criado com intuito de aprender boas práticas do __HTML e CSS.__
